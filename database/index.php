@@ -19,7 +19,7 @@ session_start();
                     <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
                         <div class="card-body p-4 p-md-5">
                             <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 text-center">Login Form</h3>
-                            <form action="" method="post">
+                            <form action="" method="post"action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
                                 <div class="form-outline mb-4">
                                     <input type="text" name="name" class="form-control form-control-lg" />
                                     <label class="form-label" for="name">Tên đăng nhập</label>

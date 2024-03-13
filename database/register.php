@@ -20,7 +20,7 @@
                     <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
                         <div class="card-body p-4 p-md-5 ">
                             <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 text-center">Registration Form</h3>
-                            <form action="" method="post" >
+                            <form action="" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
                                 <div class="col-md-6 mb-4">
                                     <div class="form-outline">
                                         <label class="form-label" for="name">Tên đăng nhập</label>

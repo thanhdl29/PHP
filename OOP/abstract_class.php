@@ -1,6 +1,5 @@
 <?php
 //các lớp khác khi kế thừa lớp trừu tượng sẽ phải định nghĩa các phương thức trừu tượng ấy, Một class chỉ có thể kế thừa 1 lớp trừu tượng\
-
 //Khai báo một phương thức abstract trong abstract class.
 abstract class Person
 {
